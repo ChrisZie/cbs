@@ -29,7 +29,7 @@ If you want to persist the data created, add a volume to the container:
 
 ### Step 2: Building and running the .NET Core backend on your local machine
 
-(Active path: `cbs\source\VolunteerReporting`)
+(Active path: `cbs\source\Reporting`)
 
 Download nuget dependencies
 > `dotnet restore`
@@ -37,10 +37,10 @@ Download nuget dependencies
 Build
 > `dotnet build`   
 
-Open the Web folder
-> `cd Web` 
+Open the Core folder
+> `cd Core` 
 
-(Active path: `cbs\source\VolunteerReporting\Web`) 
+(Active path: `cbs\source\Reporting\Core`) 
 
 Run locally
 > `dotnet run`
